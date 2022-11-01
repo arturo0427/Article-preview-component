@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-EN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Article preview component</title>
+
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="card">
+    <article class="card-content">
+
+      <div class="card-content__header">
+        <img src="images/drawers.jpg" alt="Drawers">
+      </div>
+
+      <div class="card-content__body">
+        <div class="card-content__body__title">
+          <h1>
+            Shift the overall look and feel by adding these wonderful
+            touches to furniture in your home
+          </h1>
+        </div>
+        <div class="card-content__body__info">
+          <p>
+            Ever been in a room and felt like something was missing? Perhaps
+            it felt slightly bare and uninviting. I’ve got some simple tips
+            to help you make any room feel complete.
+          </p>
+        </div>
+      </div>
+
+      <div class="card-content__footer off">
+        <div class="card-content__footer__img">
+          <img src="images/avatar-michelle.jpg" alt="Avatar Michelle">
+        </div>
+        <div class="card-content__footer__info">
+          <span>Michelle Appleton</span>
+          <p>28 Jun 2020</p>
+        </div>
+        <div class="card-content__footer__social">
+          <span>Share</span>
+          <img class="hover-cursor-img" src="images/icon-facebook.svg" alt="Facebook">
+          <img class="hover-cursor-img" src="images/icon-twitter.svg" alt="Twitter">
+          <img class="hover-cursor-img" src="images/icon-pinterest.svg" alt="Pinterest">
+        </div>
+        <div class="card-content__footer__btn-share" onclick="share()">
+          <img src="images/icon-share.svg" alt="Share">
+        </div>
+      </div>
+    </article>
+  </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.frontendmentor.io/profile/arturo0427">Arturo Muñoz</a>.
+  </div>
+
+  <script src="js/index.js"></script>
+</body>
+
+</html>
