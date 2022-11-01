@@ -199,6 +199,8 @@ body {
 
     .card-content__header img {
         height: 100%;
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 12px;
     }
 
     .card-content__body {
